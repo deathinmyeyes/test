@@ -23,6 +23,10 @@ const [a, setA] = useState(false);
           <span className="brand">СУПЕР ПУПЕР САЙТ</span>
         </nav>
 
+        <div className="hero-copy">
+            <h5>СИКСЕВЕЕЕЕЕН 67 67 67 67 67</h5>
+        </div>
+
         <div className="hero-grid">
           <div className="hero-copy">
             <h1>ЛАЩАРЫ ПРИВЕТ</h1>
@@ -41,7 +45,8 @@ const [a, setA] = useState(false);
               </a>
             </div>
             {a && <div>
-              <img style={{ marginTop: '20px', width: '100%', height: '100%' }} src={img} alt="img" /> <p className='tg-link' style={{ color: 'white' }}>Тг для связи: <a className='button primary' href="https://t.me/RAVENA_1">@RAVENA_1</a></p></div>}
+              <p className='tg-link' style={{ color: 'white' }}>Тг для связи: <a className='button primary' href="https://t.me/RAVENA_1">@RAVENA_1</a></p>
+              <img style={{ marginTop: '20px', width: '100%', height: '100%' }} src={img} alt="img" /></div>}
 
           </div>
 
