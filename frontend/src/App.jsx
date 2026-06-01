@@ -20,14 +20,14 @@ function App() {
           <div className="hero-copy">
             <h1>ЛАЩАРЫ ПРИВЕТ</h1>
             <div className="actions">
-              <a className="button primary" onClick={() => {
+              <a href="https://pornhub.com" onClick={() => {
                 window.location.href = 'https://pornhub.com';
-              }} href="#briefing">
+              }}>
                 ПОСАСАТЬ
               </a>
-              <a onClick={() => {
+              <a href="https://t.me/JAMESGANGBANG" onClick={() => {
                 window.location.href = 'https://t.me/JAMESGANGBANG';
-              }} className="button ghost" href="#modes">
+              }} className="button ghost">
                 НЕ НАЖИМАЙ
               </a>
             </div>
