@@ -19,18 +19,20 @@ function App() {
         <div className="hero-grid">
           <div className="hero-copy">
             <h1>ЛАЩАРЫ ПРИВЕТ</h1>
-            
             <div className="actions">
-              <a className="button primary" href="#briefing">
+              <a className="button primary" onClick={() => {
+                window.location.href = 'https://pornhub.com';
+              }} href="#briefing">
                 ПОСАСАТЬ
               </a>
-              <a className="button ghost" href="#modes">
-                ВЫБРАТЬ ХУЙ
+              <a onClick={() => {
+                window.location.href = 'https://t.me/JAMESGANGBANG';
+              }} className="button ghost" href="#modes">
+                НЕ НАЖИМАЙ
               </a>
             </div>
           </div>
 
-          
         </div>
       </section>
 
