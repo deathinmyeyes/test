@@ -8,15 +8,23 @@
   min-height: 680px;
   padding: 28px clamp(20px, 5vw, 72px) 72px;
   background:
-    radial-gradient(circle at 82% 18%, rgba(255, 184, 60, 0.28), transparent 26%),
-    radial-gradient(circle at 18% 20%, rgba(98, 132, 77, 0.32), transparent 30%),
+    radial-gradient(
+      circle at 82% 18%,
+      rgba(255, 184, 60, 0.28),
+      transparent 26%
+    ),
+    radial-gradient(
+      circle at 18% 20%,
+      rgba(98, 132, 77, 0.32),
+      transparent 30%
+    ),
     linear-gradient(135deg, rgba(13, 16, 12, 0.9), rgba(31, 28, 19, 0.92)),
     url("data:image/svg+xml,%3Csvg width='160' height='160' viewBox='0 0 160 160' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 88h160M76 0v160M20 20l120 120M140 20 20 140' stroke='%23ffffff' stroke-opacity='.045' stroke-width='2'/%3E%3C/svg%3E");
   isolation: isolate;
 }
 
 .hero::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: auto -10% -18% 30%;
   height: 300px;
@@ -115,26 +123,6 @@
   background: rgba(255, 255, 255, 0.07);
 }
 
-.supply-card {
-  position: relative;
-  min-height: 420px;
-  border: 1px solid rgba(255, 255, 255, 0.13);
-  border-radius: 34px;
-  background:
-    linear-gradient(155deg, rgba(255, 255, 255, 0.11), rgba(255, 255, 255, 0.03)),
-    linear-gradient(180deg, rgba(48, 66, 38, 0.82), rgba(20, 20, 17, 0.84));
-  box-shadow: var(--shadow);
-  overflow: hidden;
-}
-
-.supply-card::before {
-  content: '';
-  position: absolute;
-  inset: 22px;
-  border: 1px dashed rgba(255, 255, 255, 0.22);
-  border-radius: 24px;
-}
-
 .crate {
   position: absolute;
   right: 13%;
@@ -146,7 +134,11 @@
   border: 2px solid rgba(255, 255, 255, 0.22);
   border-radius: 24px;
   background:
-    linear-gradient(90deg, rgba(118, 45, 31, 0.82) 0 52%, rgba(40, 82, 133, 0.8) 52%),
+    linear-gradient(
+      90deg,
+      rgba(118, 45, 31, 0.82) 0 52%,
+      rgba(40, 82, 133, 0.8) 52%
+    ),
     linear-gradient(180deg, #7b4a2f, #3b281f);
   color: #fff;
   font-size: clamp(28px, 5vw, 48px);
@@ -169,15 +161,15 @@
 .scanline {
   position: absolute;
   inset: 0;
-  background: linear-gradient(transparent 0 45%, rgba(255, 255, 255, 0.18) 48%, transparent 52%);
+  background: linear-gradient(
+    transparent 0 45%,
+    rgba(255, 255, 255, 0.18) 48%,
+    transparent 52%
+  );
   animation: scan 3s ease-in-out infinite;
 }
 
-.supply-card p {
-  position: absolute;
-  left: 32px;
-  right: 32px;
-  bottom: 28px;
+.tg-link  {
   color: var(--sand);
   font-weight: 800;
   letter-spacing: 0.12em;
@@ -245,7 +237,11 @@
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 28px;
   background:
-    linear-gradient(145deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.02)),
+    linear-gradient(
+      145deg,
+      rgba(255, 255, 255, 0.08),
+      rgba(255, 255, 255, 0.02)
+    ),
     #171a13;
   text-align: left;
 }
@@ -319,10 +315,6 @@
   .mode-grid,
   .briefing {
     grid-template-columns: 1fr;
-  }
-
-  .supply-card {
-    min-height: 330px;
   }
 
   .stats {

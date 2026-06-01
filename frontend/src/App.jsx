@@ -26,6 +26,7 @@ const [a, setA] = useState(false);
         <div className="hero-grid">
           <div className="hero-copy">
             <h1>ЛАЩАРЫ ПРИВЕТ</h1>
+            <h4>ЯНА ЛОШАРА</h4>
             
             <div className="actions">
               <a href="https://pornhub.com" onClick={() => {
@@ -39,7 +40,8 @@ const [a, setA] = useState(false);
                 НЕ НАЖИМАЙ
               </a>
             </div>
-            {a && <img style={{ marginTop: '20px'}} src={img} alt="img" />}
+            {a && <div>
+              <img style={{ marginTop: '20px', width: '100%', height: '100%' }} src={img} alt="img" /> <p className='tg-link' style={{ color: 'white' }}>Тг для связи: <a className='button primary' href="https://t.me/RAVENA_1">@RAVENA_1</a></p></div>}
 
           </div>
 
